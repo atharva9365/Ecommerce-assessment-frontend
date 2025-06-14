@@ -9,7 +9,7 @@ const ProductDisplay = (props) => {
    const {addToCart} = useContext(ShopContext);
   // console.log(product); // Ensure product is not undefined
   // console.log(product.image); // Ensure the image path is correct
-  console.log(starr_icon, star_dull_icon, product.image);
+  // console.log(starr_icon, star_dull_icon, product.image);
 
   return (
     <>
