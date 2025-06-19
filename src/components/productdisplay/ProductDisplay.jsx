@@ -7,9 +7,8 @@ import { ShopContext } from '../../context/ShopContext'
 const ProductDisplay = (props) => {
   const {product} = props;
    const {addToCart} = useContext(ShopContext);
-  // console.log(product); // Ensure product is not undefined
-  // console.log(product.image); // Ensure the image path is correct
-  // console.log(starr_icon, star_dull_icon, product.image);
+  // console.log(product); 
+  // console.log(product.image); 
 
   return (
     <>

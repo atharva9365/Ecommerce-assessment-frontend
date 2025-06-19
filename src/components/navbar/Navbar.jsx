@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
-  const [menuVisible, setMenuVisible] = useState(false); // State to toggle nav-menu
+  const [menuVisible, setMenuVisible] = useState(false); 
 
   const toggleMenu = () => {
     setMenuVisible(!menuVisible);
@@ -20,7 +20,6 @@ const Navbar = () => {
           <p>SHOP CART</p>
         </div>
 
-        {/* Nav menu with visibility controlled by menuVisible */}
         <ul className={`nav-menu ${menuVisible ? "visible" : ""}`}>
           <li onClick={() => setMenu("home")}>
             <Link style={{ textDecoration: "none", color: "#626262" }} to="/">

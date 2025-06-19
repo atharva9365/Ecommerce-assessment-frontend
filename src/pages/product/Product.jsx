@@ -10,7 +10,7 @@ const Product = () => {
     // Find product by ID
     const product = all_product?.find((e) => e.id === Number(productId));
 
-    // Handle case where product is not found
+    
     if (!product) {
         return <div>Product not found.</div>;
     }

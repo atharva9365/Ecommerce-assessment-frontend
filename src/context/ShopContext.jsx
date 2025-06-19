@@ -17,7 +17,7 @@ const getDefaultCart = () => {
 const ShopContextProvider = (props) => {
     const [cartItems, setCartItems] = useState(getDefaultCart());
 
-    // Fetch cart from backend on load
+    
     useEffect(() => {
         axios.get(`${BASE_URL}/items`)
             .then((res) => {
